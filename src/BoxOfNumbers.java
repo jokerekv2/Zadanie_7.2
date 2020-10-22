@@ -22,8 +22,7 @@ public class BoxOfNumbers {
 
     private int setSizeOfBox() {
         System.out.print("Podaj rozmiar boxa: ");
-        int x = sc.nextInt();
-        return x;
+        return sc.nextInt();
     }
 
 
